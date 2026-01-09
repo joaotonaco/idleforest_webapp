@@ -9,6 +9,21 @@ export function formatNumber(num: number): string {
         { value: 1e12, symbol: " Trillion" },
         { value: 1e15, symbol: " Quadrillion" },
         { value: 1e18, symbol: " Quintillion" },
+        { value: 1e21, symbol: " Sextillion" },
+        { value: 1e24, symbol: " Septillion" },
+        { value: 1e27, symbol: " Octillion" },
+        { value: 1e30, symbol: " Nonillion" },
+        { value: 1e33, symbol: " Decillion" },
+        { value: 1e36, symbol: " Undecillion" },
+        { value: 1e42, symbol: " Duodecillion" },
+        { value: 1e45, symbol: " Tredecillion" },
+        { value: 1e52, symbol: " Quattuordecillion" },
+        { value: 1e55, symbol: " Quindecillion" },
+        { value: 1e62, symbol: " Sexdecillion" },
+        { value: 1e65, symbol: " Septendecillion" },
+        { value: 1e72, symbol: " Octodecillion" },
+        { value: 1e75, symbol: " Novemdecillion" },
+        { value: 1e82, symbol: " Vigintillion" },
     ];
 
     // Reverse loop to find the largest suffix that matches
